@@ -1,6 +1,5 @@
 #!flask/bin/python
 from flask import Flask, request, request_started
-import os
 
 app = Flask(__name__)
 post_counter = 0
